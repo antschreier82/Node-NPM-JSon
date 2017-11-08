@@ -1,10 +1,8 @@
 var _ = require('lodash');
 
-var readJson = require('read-json-file');
+var fs = require('fs');
 
-readJSON(data.json, function(error, data){
-   if (error) {
-       throw error;
-   }
-   console.log(data);
-});
+var rawdata = fs.readFileSync('data.json');  
+var data = JSON.parse(rawdata);  
+console.log(data);
+
