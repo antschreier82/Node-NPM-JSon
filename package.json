@@ -1,0 +1,25 @@
+{
+  "name": "node-npm-json",
+  "version": "1.0.0",
+  "description": "Get data from json file and display it",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "read-json": "^1.0.3",
+    "try-call": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antschreier82/Node-NPM-JSon.git"
+  },
+  "author": "Anthony Schreier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antschreier82/Node-NPM-JSon/issues"
+  },
+  "homepage": "https://github.com/antschreier82/Node-NPM-JSon#readme"
+}
